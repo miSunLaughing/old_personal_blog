@@ -1,2 +1,10 @@
 # blog
-zhongwenhao  blog ( react + redux + react-router + es6 + fetch + flex + webpack + node.js + express.js + mongoose +mongodb )
+zhongwenhao  blog
+
+技术栈：
+
+前端：react + redux + react-router + es6 + fetch + （flex + material-ui）
+
+后端：express.js + mongoose + mongodb 
+
+工程化：webpack + node.js
