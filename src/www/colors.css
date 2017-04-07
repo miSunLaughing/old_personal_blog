@@ -1,0 +1,220 @@
+body,html{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	display: flex;
+}
+.left{
+	display: flex;
+	justify-content: flex-end;
+	width:50%;
+	height:200%;
+}
+.right{
+	position: fixed;
+	display: flex;
+	top:0;
+	right:0;
+	width:50%;
+	height:100%;
+}
+.fixedLeft{
+	width:100px;
+	height:100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+@media only screen and (max-device-width:480px){	
+	.fixedRight{
+		height:100%;
+		width:50px;
+	}
+}
+@media only screen and (min-device-width:481px) and (max-device-width:768px){	
+	.fixedRight{
+		height:100%;
+		width:100px;
+	}
+}
+@media only screen and (min-device-width:769px){	
+	.fixedRight{
+		height:100%;
+		width:300px;
+	}
+}
+
+.fixedLeft .infoBlock{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	flex-wrap:wrap-reverse;
+	align-content: flex-start;
+	width:50px;
+	height:50%;
+}
+.infoBlock a{
+	margin: 5px 2px;
+	width:44px;
+	height:25px;
+	line-height: 25px;
+	color:#e1dbcd;
+	text-decoration: none;
+	border:1px solid #e1dbcd;
+	text-align: center;
+}
+.infoBlock a:hover{	
+	background-color:#796f54;
+	cursor: pointer;
+}
+.fixedLeft .infoBlockRe{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	flex-wrap:wrap;
+	align-content: flex-start;
+	width:50px;
+	height:50%;
+}
+.bgWhite{
+	background-color: #e1dbcd;	
+}
+.bgBlack{
+	background-color: #363532;	
+}
+.bgtest{
+	background-color: #999;
+}
+.historyClolrs{
+	height:25px;
+	width:25px;
+	text-align: center;
+	font-size: 5px;
+	font-weight: 600;
+	color:#fff;
+}
+.historyClolrs:hover{
+	cursor: pointer;
+}
+.copyRight{
+	display: inline-block;
+	width:25px;
+	height:100%;
+	color:#fff;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+@media only screen and (max-device-width:480px){
+	.colorsShow{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		width:140px;
+		height:100%;
+	}
+}
+@media only screen and (min-device-width:481px) and (max-device-width:768px){
+	.colorsShow{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		width:210px;
+		height:100%;
+	}
+}
+@media only screen and (min-device-width:769px){
+	.colorsShow{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		margin-right: 50px;
+		width:490px;
+		height:100%;
+	}
+}
+
+.colors{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	margin: 10px;
+	width:50px;
+	height:260px;
+}
+.colors:hover{
+	background-color: #949c97;
+	cursor: pointer;
+}
+.colors .show{
+	height:8px;
+	width:50px;
+}
+.colors .nameZn{
+	margin-top: 5px;
+	margin-bottom: 2px;
+	padding: 0 18px;
+	width:50px;
+	height:80px;
+	text-align: center;	
+	font-size: 14px;
+	font-weight: 600;
+}
+.colors .dataRgb{
+	width:18px;
+	height:18px;
+	/*height:165px;*/
+	text-align: center;
+    -webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	text-transform: uppercase;
+	color: #e1dbcd;
+	font-size: 14px;
+	font-weight: 500;
+}
+.colors .nameEn{
+	width: 18px;
+	height:18px;
+	/*height:165px;*/
+	text-align: center;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	text-transform: uppercase;
+	color: #e1dbcd;
+	font-size: 14px;
+	font-weight: 500;
+}
+.colors .infoData{
+	display: flex;
+	text-align: center;
+	width:14px;
+	height:165px;	
+}
+.colors .infoData .data{
+	display: flex;
+	flex-direction:column-reverse;
+	margin-right: 2px;
+	margin-left: 2px;
+	width:1px;
+	height:155px;
+	background-color: #e1dbcd;
+}
+
+.colors .infoData .dataR,.colors .infoData .dataG,.colors .infoData .dataB{
+	width: 2px;
+	margin-right:2px;
+	background-color: #eadcd6;
+}
+.colors .infoData .data:last-child{
+	margin-right: 1px;
+}
+.infoContent{
+	height:100%;
+	width:100%;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: 700;
+	color:#e1dbcd;
+}
