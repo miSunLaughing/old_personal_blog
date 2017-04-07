@@ -1,10 +1,22 @@
 # blog
-zhongwenhao  blog
+# material-ui + react + redux + react-router + webpack + nodeJs + express + mongoose + mongodb 
+###技术栈
+前端：material-ui + react +redux + react-router
+后端：nodeJs + express + mongoose + mongodb
+工程化：webpack
+http：fetch
 
-技术栈：
+###开始
+安装及调试基本环境，安装node、mongodb
+###运行
+1、克隆文件
+2、在对应文件夹下运行 npm install
 
-前端：react + redux + react-router + es6 + fetch + （flex + material-ui）
+	###开发环境
+	3、npm start
+	4、在浏览器上访问 http://localhost:3000
 
-后端：express.js + mongoose + mongodb 
-
-工程化：webpack + node.js
+	###生产环境
+	3、npm run build
+	4、在浏览器上访问 http://localhost:80
+	
