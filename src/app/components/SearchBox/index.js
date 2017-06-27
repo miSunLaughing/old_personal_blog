@@ -3,7 +3,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import * as actions from '../../actions';
 import { Link, IndexLink,useRouterHistory} from 'react-router';
-import { createHashHistory } from 'react-router/node_modules/history';
+import { createHashHistory } from 'history';
 import {teal50} from 'material-ui/styles/colors';
 import AutoComplete from 'material-ui/AutoComplete';
 const appHistory = useRouterHistory(createHashHistory)({ queryKey: false });

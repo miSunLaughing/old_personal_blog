@@ -1,7 +1,7 @@
 {
   "name": "zhongwenhao-blog",
   "version": "0.15.0",
-  "description": "zhongwenhao-blog",  
+  "description": "zhongwenhao-blog",
   "scripts": {
     "start": "webpack-dev-server --config webpack-dev-server.config.js --progress --inline --colors",
     "build": "webpack --config webpack-production.config.js --progress --colors",
@@ -30,14 +30,15 @@
     "es6-promise": "^4.0.5",
     "express": "^4.14.0",
     "formidable": "^1.0.17",
+    "history": "^4.6.3",
     "isomorphic-fetch": "^2.2.1",
-    "material-ui": "^0.15.0",
+    "material-ui": "^0.15.4",
     "mongoose": "^4.7.1",
-    "react": "^15.0.1",
-    "react-dom": "^15.0.1",
-    "react-redux": "^4.4.5",
-    "react-router": "^2.8.1",
-    "react-tap-event-plugin": "^1.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.4.0",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-tap-event-plugin": "^2.0.1",
     "redux": "^3.6.0",
     "redux-thunk": "^2.1.0"
   }

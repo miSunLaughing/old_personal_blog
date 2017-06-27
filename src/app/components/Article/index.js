@@ -1,13 +1,13 @@
 import React ,{Component}from 'react';
 import {bindActionCreators} from 'redux';
 import { Link, IndexLink,useRouterHistory} from 'react-router';
-import { createHashHistory } from 'react-router/node_modules/history';
+import { createHashHistory } from 'history';
 import {connect} from 'react-redux';
 import * as actions from '../../actions';
 import {List, ListItem} from 'material-ui/List';
 import ActionGrade from 'material-ui/svg-icons/action/grade';
 import ArticleList from '../ArticleList';
-import KeyList from '../ArticleList/KeyList';
+import KeyList from '../ArticleList/keyList';
 import {teal50} from 'material-ui/styles/colors';
 import AutoComplete from 'material-ui/AutoComplete';
 const appHistory = useRouterHistory(createHashHistory)({ queryKey: false });

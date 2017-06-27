@@ -9,7 +9,7 @@ const config = {
   entry: [
     path.join(__dirname, '/src/app/app.js'),
   ],
-  // Server Configuration options
+  // Server Configuration options  
   devServer: {
     contentBase: 'src/www', // Relative directory for base of server
     devtool: 'eval',

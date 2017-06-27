@@ -4,7 +4,7 @@ import thunkMiddleware from 'redux-thunk'
 import {Provider,connect} from 'react-redux'
 import {combineReducers, createStore, applyMiddleware} from "redux"
 import { Router, Route, IndexRoute, Link, IndexLink, useRouterHistory  } from 'react-router';
-import { createHashHistory } from 'react-router/node_modules/history';
+import { createHashHistory } from 'history';  
 import reducers from './reducers';
 
 import injectTapEventPlugin from 'react-tap-event-plugin';

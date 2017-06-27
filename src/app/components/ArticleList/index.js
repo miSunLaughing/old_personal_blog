@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import { useRouterHistory} from 'react-router';
-import { createHashHistory } from 'react-router/node_modules/history';
+import { createHashHistory } from 'history';
 import {List, ListItem} from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
 import Divider from 'material-ui/Divider';

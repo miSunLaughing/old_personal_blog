@@ -11,7 +11,7 @@ var app=express();
 var path=require('path');
 // 配置站点静态文件
 app.use(express.static(path.join(__dirname,'../build')));
-app.set('port',8080);
+app.set('port',80);
 var server='zhongwenhao.cn';
 app.use(bodyParser.urlencoded({ extended: true }));
 app.post('/myBlog/add', function(req,res){
